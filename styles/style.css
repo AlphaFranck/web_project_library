@@ -290,3 +290,117 @@
   font-size: 14px;
   margin: 0;
 }
+
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  list-style-type: none;
+  padding: 0px;
+  margin: 100px 0 0;
+}
+
+.step {
+  display: flex;
+  flex-basis: 240px;
+  flex-wrap: wrap;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.footer__columns {
+  padding: 60px 80px 0px 80px;
+  display: flex;
+}
+
+.footer__column_content_hours {
+  list-style-type: none;
+  margin-left: auto;
+}
+
+.footer__column_content_social {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+
+.footer__logo {
+  display: flex;
+  flex-direction: column;
+  max-height: 80px;
+  width: 58px;
+}
+
+.footer__column-heading {
+  font-size: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.footer__list {
+  /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.footer__list-item {
+  display: flex;
+  gap: 10px;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+  height: 16px;
+  width: 16px;
+}
+
+.footer__copyright {
+  margin-top: 100px;
+  margin-bottom: 0px;
+  padding-left: 80px;
+}
