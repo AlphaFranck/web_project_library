@@ -318,7 +318,7 @@
 
 .step {
   display: flex;
-  flex-basis: 240px;
+  flex-basis: 220px;
   flex-wrap: wrap;
 }
 
@@ -340,12 +340,13 @@
 }
 
 .footer {
-  background-color: #000000;
+  background-color: #1f1f1f;
   color: #ffffff;
+  box-sizing: content-box;
+  padding: 60px 80px;
 }
 
 .footer__columns {
-  padding: 60px 80px 0px 80px;
   display: flex;
 }
 
