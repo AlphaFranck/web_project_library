@@ -342,7 +342,7 @@
 .footer {
   background-color: #1f1f1f;
   color: #ffffff;
-  box-sizing: content-box;
+  box-sizing: border-box;
   padding: 60px 80px;
 }
 
@@ -364,14 +364,14 @@
 .footer__logo {
   display: flex;
   flex-direction: column;
-  max-height: 80px;
+  height: 80px;
   width: 58px;
 }
 
 .footer__column-heading {
   font-size: 20px;
-  padding-bottom: 20px;
   margin: 0;
+  margin-bottom: 20px;
 }
 
 .footer__list {
@@ -393,6 +393,9 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
